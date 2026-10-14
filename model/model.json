@@ -1,0 +1,103 @@
+{
+  "charset": "23467ACDEFGHJKMNPQRTUVWXY",
+  "seq_len": 4,
+  "num_classes": 25,
+  "img_h": 30,
+  "img_w": 60,
+  "widths": [
+    16,
+    32,
+    64,
+    96
+  ],
+  "seg_hidden": 64,
+  "dropout": 0.2,
+  "trained_on": 8099,
+  "val_n": 1911,
+  "val_exact": 0.9979068550497122,
+  "val_per_pos": [
+    1.0,
+    0.9984301412872841,
+    1.0,
+    0.9994767137624281
+  ],
+  "best_epoch": 296,
+  "seed": 0,
+  "split": "hash",
+  "device": "cuda",
+  "amp": false,
+  "workers": 6,
+  "sweep": [
+    {
+      "threshold": 0.0,
+      "filled_ratio": 1.0,
+      "filled_acc": 0.9979068550497122,
+      "sec_per_image": 1.002930402930403,
+      "speedup": 1.7947406866325786
+    },
+    {
+      "threshold": 0.5,
+      "filled_ratio": 0.989010989010989,
+      "filled_acc": 0.9994708994708995,
+      "sec_per_image": 1.0095238095238095,
+      "speedup": 1.7830188679245285
+    },
+    {
+      "threshold": 0.7,
+      "filled_ratio": 0.9759288330716902,
+      "filled_acc": 0.9994638069705094,
+      "sec_per_image": 1.0199895342752485,
+      "speedup": 1.7647239893289557
+    },
+    {
+      "threshold": 0.8,
+      "filled_ratio": 0.9607535321821036,
+      "filled_acc": 0.9994553376906318,
+      "sec_per_image": 1.0321297749869178,
+      "speedup": 1.743966741026161
+    },
+    {
+      "threshold": 0.9,
+      "filled_ratio": 0.8608058608058609,
+      "filled_acc": 1.0,
+      "sec_per_image": 1.1113553113553114,
+      "speedup": 1.6196440342781806
+    },
+    {
+      "threshold": 0.95,
+      "filled_ratio": 0.32443746729461015,
+      "filled_acc": 1.0,
+      "sec_per_image": 1.540450026164312,
+      "speedup": 1.1684897071811944
+    },
+    {
+      "threshold": 0.98,
+      "filled_ratio": 0.0010465724751439038,
+      "filled_acc": 1.0,
+      "sec_per_image": 1.799162742019885,
+      "speedup": 1.000465359781281
+    },
+    {
+      "threshold": 0.99,
+      "filled_ratio": 0.0,
+      "filled_acc": 0.0,
+      "sec_per_image": 1.8,
+      "speedup": 1.0
+    },
+    {
+      "threshold": 0.995,
+      "filled_ratio": 0.0,
+      "filled_acc": 0.0,
+      "sec_per_image": 1.8,
+      "speedup": 1.0
+    },
+    {
+      "threshold": 0.999,
+      "filled_ratio": 0.0,
+      "filled_acc": 0.0,
+      "sec_per_image": 1.8,
+      "speedup": 1.0
+    }
+  ],
+  "total_labelled": 10010
+}
