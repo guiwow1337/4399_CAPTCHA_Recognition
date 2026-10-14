@@ -123,7 +123,7 @@ print(label)
 
 ## 许可证
 
-见 [LICENSE](LICENSE)：**MIT**。嗯对需要标注作者名，虽然我只手写了README.md。
+见 [LICENSE](LICENSE)：**MIT**。嗯对需要标注作者名，虽然我只手写了README.md。但是如果你拿着这个东西忽悠人去圈钱。那我只能祝你自拍下就是全家福了。
 
 `stb_image.h` 是公有领域 / MIT（[nothings/stb](https://github.com/nothings/stb)），
 只用于构建，不改变本项目的许可证。
